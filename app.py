@@ -1,23 +1,23 @@
-import os
-import subprocess
+# import os
+# import subprocess
 
-# Ensure pip is upgraded and packages are installed
-def install_dependencies():
-    try:
-        subprocess.run(["pip", "install", "--upgrade", "pip"], check=True)
-        subprocess.run(["pip", "install", "-r", "requirements.txt"], check=True)
-    except Exception as e:
-        print(f"Dependency installation failed: {e}")
+# # Ensure pip is upgraded and packages are installed
+# def install_dependencies():
+#     try:
+#         subprocess.run(["pip", "install", "--upgrade", "pip"], check=True)
+#         subprocess.run(["pip", "install", "-r", "requirements.txt"], check=True)
+#     except Exception as e:
+#         print(f"Dependency installation failed: {e}")
 
-install_dependencies()
+# install_dependencies()
 
-def ensure_dependencies():
-    try:
-        subprocess.run(["pip", "install", "--upgrade", "setuptools"], check=True)
-    except Exception as e:
-        print(f"Error ensuring setuptools: {e}")
+# def ensure_dependencies():
+#     try:
+#         subprocess.run(["pip", "install", "--upgrade", "setuptools"], check=True)
+#     except Exception as e:
+#         print(f"Error ensuring setuptools: {e}")
 
-ensure_dependencies()
+# ensure_dependencies()
 
 import streamlit as st
 import cv2
