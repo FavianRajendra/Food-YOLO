@@ -23,7 +23,19 @@ custom_messages = {
     "tomato": "🍅 **Calories**: 18 kcal per 100g. Tomatoes are low in calories and high in Vitamin C and antioxidants. They promote heart health and fight inflammation! 💓",
     "vada": "🍩 **Calories**: 190-250 kcal per vada. High in protein and carbohydrates, but also high in fats due to deep frying. Enjoy in moderation! ⚖️",
     "banana": "🍌 **Calories**: 90 kcal per 100g. Bananas are rich in carbs and potassium, offering a great energy boost and aiding in muscle recovery. 💪🍃",
-    "burger": "🍔 **Calories**: 250-350 kcal per burger. High in protein and fat. For a healthier option, use lean meat, whole grain buns, and load up on veggies. 🥗"
+    "burger": "🍔 **Calories**: 250-350 kcal per burger. High in protein and fat. For a healthier option, use lean meat, whole grain buns, and load up on veggies. 🥗",
+    "Apple": "🍎 **Calories**: 52 kcal per 100g. Apples are a good source of dietary fiber and Vitamin C. Rich in antioxidants, they promote digestive health and are low in calories. Perfect for a healthy snack! 🥰",
+    "Chapathi": "🥖 **Calories**: 120 kcal per piece (40g). Chapathi is made from whole wheat and provides complex carbohydrates, fiber, and some protein. It's a great energy booster and digestive aid! 💪",
+    "Chicken gravy": "🍗 **Calories**: 250-300 kcal per 100g. Chicken gravy is protein-rich, great for muscle repair. Be mindful of fat content. Ideal for a hearty meal. 🍽️",
+    "Fries": "🍟 **Calories**: 312 kcal per 100g. Fries are energy-packed but also high in unhealthy fats. Enjoy as a treat, not a daily dish! 🍔",
+    "Idli": "🥞 **Calories**: 39 kcal per idli. Idlis are low in fat, packed with carbohydrates and protein. A light, easy-to-digest breakfast option for balanced energy. 🥱",
+    "Pizza": "🍕 **Calories**: 285 kcal per slice. A combination of carbs (crust), fats (cheese), and protein (meat/cheese). Opt for veggies and whole grain crust for a healthier slice! 🌱",
+    "Rice": "🍚 **Calories**: 130 kcal per 100g. Rice is a great source of energy, though low in protein. Pair with protein-rich foods for a complete meal. 🍛",
+    "Soda": "🥤 **Calories**: 40-50 kcal per 100ml. Soda is high in sugars with little nutritional value. Limit its consumption to avoid empty calories. 🚫",
+    "Tomato": "🍅 **Calories**: 18 kcal per 100g. Tomatoes are low in calories and high in Vitamin C and antioxidants. They promote heart health and fight inflammation! 💓",
+    "Vada": "🍩 **Calories**: 190-250 kcal per vada. High in protein and carbohydrates, but also high in fats due to deep frying. Enjoy in moderation! ⚖️",
+    "Banana": "🍌 **Calories**: 90 kcal per 100g. Bananas are rich in carbs and potassium, offering a great energy boost and aiding in muscle recovery. 💪🍃",
+    "Burger": "🍔 **Calories**: 250-350 kcal per burger. High in protein and fat. For a healthier option, use lean meat, whole grain buns, and load up on veggies. 🥗"
 }
 
 # Function to process a single frame
