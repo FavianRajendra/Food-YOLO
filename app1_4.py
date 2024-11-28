@@ -4,6 +4,19 @@ import numpy as np
 from ultralytics import YOLO
 import tempfile
 import time  # For adding delay to messages only
+import subprocess
+import sys
+
+# Function to install packages
+def install_requirements():
+    try:
+        subprocess.check_call([sys.executable, "-m", "pip", "install", "-r", "requirements.txt"])
+    except Exception as e:
+        print(f"An error occurred while installing requirements: {e}")
+
+# Run the installer
+install_requirements()
+
 
 # Load the YOLO model
 model = YOLO('food.pt')
