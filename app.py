@@ -70,7 +70,7 @@ def process_frame(img, detected_message_container):
     return img
 
 # Streamlit app layout
-st.title("Object Detection with YOLOv10")
+st.title("Food Detection using YOLOv10")
 
 # Option for input method
 input_option = st.radio("Select Input Method", ["Upload Image", "Upload Video", "Webcam"], index=0)
