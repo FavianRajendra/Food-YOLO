@@ -25,6 +25,7 @@ custom_messages = {
     "banana": "🍌 **Calories**: 90 kcal per 100g. Bananas are rich in carbs and potassium, offering a great energy boost and aiding in muscle recovery. 💪🍃",
     "burger": "🍔 **Calories**: 250-350 kcal per burger. High in protein and fat. For a healthier option, use lean meat, whole grain buns, and load up on veggies. 🥗"
 }
+
 # Function to process a single frame
 def process_frame(img, detected_message_container):
     detected_messages = []  # List to collect custom messages for detected classes
