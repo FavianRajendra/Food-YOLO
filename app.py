@@ -1,15 +1,15 @@
+import os
 import subprocess
-import sys
 
-# Function to ensure required libraries are installed
-def install_requirements():
+# Ensure pip is upgraded and packages are installed
+def install_dependencies():
     try:
-        subprocess.check_call([sys.executable, "-m", "pip", "install", "opencv-python-headless"])
-        subprocess.check_call([sys.executable, "-m", "pip", "install", "-r", "requirements.txt"])
+        subprocess.run(["pip", "install", "--upgrade", "pip"], check=True)
+        subprocess.run(["pip", "install", "-r", "requirements.txt"], check=True)
     except Exception as e:
-        print(f"An error occurred while installing requirements: {e}")
+        print(f"Dependency installation failed: {e}")
 
-install_requirements()
+install_dependencies()
 
 import streamlit as st
 import cv2
