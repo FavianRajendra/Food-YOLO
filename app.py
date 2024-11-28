@@ -50,7 +50,7 @@ custom_messages = {
 }
 
 # Function to process a single frame with real-time detection and delayed message display
-def process_frame_with_real_time_detection(img, detected_message_container, detected_classes, last_update_time, delay=1.5):
+def process_frame_with_real_time_detection(img, detected_message_container, detected_classes, last_update_time, delay=0):
     # Perform detection
     results = model.predict(img, verbose=False)
     message_list = []  # To store all detected class messages
