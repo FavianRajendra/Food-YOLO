@@ -1,9 +1,3 @@
-import streamlit as st
-import cv2
-import numpy as np
-from ultralytics import YOLO
-import tempfile
-import time  # For adding delay to messages only
 import subprocess
 import sys
 
@@ -16,6 +10,13 @@ def install_requirements():
 
 # Run the installer
 install_requirements()
+
+import streamlit as st
+import cv2
+import numpy as np
+from ultralytics import YOLO
+import tempfile
+import time  # For adding delay to messages only
 
 
 # Load the YOLO model
