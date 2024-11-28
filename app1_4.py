@@ -1,14 +1,14 @@
 import subprocess
 import sys
 
-# Function to install packages
+# Function to ensure required libraries are installed
 def install_requirements():
     try:
+        subprocess.check_call([sys.executable, "-m", "pip", "install", "opencv-python-headless"])
         subprocess.check_call([sys.executable, "-m", "pip", "install", "-r", "requirements.txt"])
     except Exception as e:
         print(f"An error occurred while installing requirements: {e}")
 
-# Run the installer
 install_requirements()
 
 import streamlit as st
