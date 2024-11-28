@@ -11,6 +11,14 @@ def install_dependencies():
 
 install_dependencies()
 
+def ensure_dependencies():
+    try:
+        subprocess.run(["pip", "install", "--upgrade", "setuptools"], check=True)
+    except Exception as e:
+        print(f"Error ensuring setuptools: {e}")
+
+ensure_dependencies()
+
 import streamlit as st
 import cv2
 import numpy as np
