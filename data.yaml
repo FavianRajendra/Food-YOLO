@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 12
+names: ['Apple', 'Chapathi', 'Chicken Gravy', 'Fries', 'Idli', 'Pizza', 'Rice', 'Soda', 'Tomato', 'Vada', 'banana', 'burger']
+
+roboflow:
+  workspace: harsh-avhnv
+  project: food-image-segmentation-yolov5
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/harsh-avhnv/food-image-segmentation-yolov5/dataset/2
